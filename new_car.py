@@ -325,7 +325,8 @@ def main(stdscr):
                     stdscr.addstr(4, 5, "    \         ")
                     stdscr.addstr(5, 5, "     \_______ ")
 
-                    stdscr.addstr(8, 0, f"Motor speed: {motor_speed}% ") if motor_speed <= lower_speed_limit else stdscr(8 , 0 , "LOWER SPEED LIMIT REACHED")
+                  
+                    stdscr.addstr(8 , 0 , "LOWER SPEED LIMIT REACHED") if motor_speed <= lower_speed_limit else stdscr.addstr(8, 0, f"Motor speed: {motor_speed}% ")
                     #stdscr.refresh()
                     time.sleep(0.005)
 
