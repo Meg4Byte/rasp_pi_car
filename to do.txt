@@ -1,0 +1,18 @@
+1.Smooth speeding up    + 
+2.Smoot speeding down   +
+3.Emergency break
+4.Gears         +
+5.GUI
+6.Camera    + 
+7.test multiple keypresses + 
+8.joystick
+9.turning is not good , speed is going up and down like mad check it out
+10.server + 
+11.when client exits server should not run 
+12.batmobile style GUI
+13.LEDS (turning and moving backward and speeding down)
+14.radio
+15.parking mode 
+16.date and time
+17.battery status
+18.comfort / economy / sport modes
